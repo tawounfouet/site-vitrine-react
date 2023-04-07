@@ -5,7 +5,6 @@ const Mouse = () => {
         const cursor = document.querySelector('.cursor');
 
         window.addEventListener('mousemove', (e) => {
-            console.log(e);
             cursor.style.top = e.y + 'px';
             cursor.style.left = e.x + 'px';
         });
